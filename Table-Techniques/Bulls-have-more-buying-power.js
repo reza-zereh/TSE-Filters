@@ -21,7 +21,7 @@ true == function(){
             sum = sum + [ih][ipos].PDrCotVal;
         }
 
-        return (sum / length);
+        return (sum / (length+1));
     };
 
     var simpleAvg = sma(50);

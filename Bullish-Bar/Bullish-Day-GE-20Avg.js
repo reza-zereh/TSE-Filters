@@ -17,7 +17,7 @@ true == function(){
             sum = sum + ([ih][ipos].PriceMax - [ih][ipos].PriceMin);
         }
 
-        return Math.round(sum / length);
+        return Math.round(sum / (length+1));
     }
 
     if((pf) < (pl)) {  // if the bar is bullish
